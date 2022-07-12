@@ -1,0 +1,18 @@
+body {  background-image: url(unsplashClay.jpg);
+        background-size: cover;}
+
+header {background-color: #e5e5e5; color: #fca311; font-family: Georgia, serif; }
+h1 {line-height: 200%; 
+    background: url("sunset.jpg"); background-position: right; background-repeat: no-repeat; 
+padding-left: 2em; height: 72px; margin-bottom: 0; }
+nav {font-weight: bold; background-color: #e5e5e5; padding-top: .5em; padding-right: .5em; 
+    padding-bottom: .5em; padding-left: 2em;}
+h2 { color: #fca311; font-family: Georgia, serif; text-align: center}
+dt {color: #fca311; font-weight: bold; text-align: center }
+.resort {color: #000033; font-size: 1.2em; }
+footer{font-size: 0.70em; font-style: italic; text-align: center; padding: 1em;}
+#wrapper {opacity: 0.777777777777777777777777; width: 80%; margin-right: auto; margin-left: auto; background-color: #e5e5e5; 
+            min-width: 700px; max-width: 1024px; box-shadow: 5px 5px 5px #fca311}
+h3 {color: #fca311;}
+main{padding-right: 2em; padding-left: 2em; display: block;} 
+nav a { text-decoration: none;}
