@@ -5,14 +5,98 @@ header {background-color: #e5e5e5; color: #fca311; font-family: Georgia, serif; 
 h1 {line-height: 200%; 
     background: url("sunset.jpg"); background-position: right; background-repeat: no-repeat; 
 padding-left: 2em; height: 72px; margin-bottom: 0; }
-nav {font-weight: bold; background-color: #e5e5e5; padding-top: .5em; padding-right: .5em; 
-    padding-bottom: .5em; padding-left: 2em;}
+nav {   font-weight: bold; 
+        background-color: #e5e5e5; 
+        padding: 1px;}
 h2 { color: #fca311; font-family: Georgia, serif; text-align: center}
 dt {color: #fca311; font-weight: bold; text-align: center }
 .resort {color: #000033; font-size: 1.2em; }
 footer{font-size: 0.70em; font-style: italic; text-align: center; padding: 1em;}
-#wrapper {opacity: 0.777777777777777777777777; width: 80%; margin-right: auto; margin-left: auto; background-color: #e5e5e5; 
-            min-width: 700px; max-width: 1024px; box-shadow: 5px 5px 5px #fca311}
+#wrapper {  opacity: 0.777777777777777777777777; 
+            width: 90%; 
+            margin-right: auto; 
+            margin-left: auto; 
+            background-color: #e5e5e5; 
+            min-width: 700px; 
+            max-width: 1024px; 
+            box-shadow: 5px 5px 5px #fca311}
 h3 {color: #fca311;}
-main{padding-right: 2em; padding-left: 2em; display: block;} 
+main{       
+            padding-right: 2em; 
+            padding-left: 2em; 
+            display: block;} 
 nav a { text-decoration: none;}
+* { box-sizing: border-box; }
+nav ul {text-decoration: none;}
+nav a:link {color: #fca311;}
+nav a:visited {color: #ff5e00;}
+nav a:hover {color: #d49100; }
+header, main, footer {display: block;}
+#mobile { display: none; }
+#desktop { display: inline; }
+#case1  {   float: left;
+            width: 200px;
+            padding: 1px;
+            background-color: #FFFFFF;
+            }
+#case2  {   float: left;
+            width: 200px;
+            padding: 1px;
+            background-color: #FFFFFF;
+           }
+#case3  {   float: left;
+            width: 200px;
+            padding: 1px;
+            background-color: #FFFFFF;
+            }
+
+@media only screen and (max-width: 1024px) {    body {  margin: 0; 
+                                                        padding: 0;
+                                                        background-image: none;}
+                                                #wrapper {      width: auto;
+                                                                min-width: 0; 
+                                                                margin: 0;
+                                                                box-shadow: none;}
+                                                h1 {    margin: 0;}
+                                                nav {   float: none;
+                                                        width: auto;
+                                                        padding-top: 0.01em;
+                                                        padding-bottom: 0.01em;
+                                                        padding-left: 1em;
+                                                        padding-right: 1em;}
+                                                nav li {display: inline-block; }
+                                                nav a { padding-right: 2em; }
+                                                main {  padding: 1em;
+                                                        margin-left: 0;
+                                                        font-size: 90%;}
+                                                footer {margin: 0;}
+                                                #case1 {margin: 0;}
+                                                #case2 {margin: 0;}
+                                                #case3 {margin: 0;}
+                                                
+                                            }
+@media only all and (max-width: 768px)     {    h1 {    height: 100%;
+                                                        font-size: 1.5em;
+                                                        padding-left: 0.03em;}
+                                                nav {   padding: 0;}
+                                                nav a { display: block;
+                                                        padding: 0.02em;
+                                                        font-size: 1.1em;
+                                                        border-bottom: 1px #330000 }
+                                                nav ul {margin: 0;
+                                                        padding: 0;}
+                                                nav li {display:block;
+                                                        margin: 0;
+                                                        padding: 0;}
+                                                main    {padding-top: 0.01em;
+                                                            padding-right:0.6em;
+                                                            padding-bottom: 0.1em;
+                                                            padding-left: 0.4em;}
+                                                
+                                                footer {padding: 0;}
+                                                #case1 {margin: 0;}
+                                                #case2 {margin: 0;}
+                                                #case3 {margin: 0;}
+                                                #mobile { display: inline; }
+                                                #desktop { display: none; }
+                                                }
