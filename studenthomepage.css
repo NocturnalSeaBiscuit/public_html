@@ -11,7 +11,10 @@ nav {   font-weight: bold;
 h2 { color: #fca311; font-family: Georgia, serif; text-align: center}
 dt {color: #fca311; font-weight: bold; text-align: center }
 .resort {color: #000033; font-size: 1.2em; }
-footer{font-size: 0.70em; font-style: italic; text-align: center; padding: 1em;}
+footer{ font-size: 0.70em; 
+        font-style: italic; 
+        text-align: center; 
+       }
 #wrapper {  opacity: 0.777777777777777777777777; 
             width: 90%; 
             margin-right: auto; 
@@ -19,8 +22,11 @@ footer{font-size: 0.70em; font-style: italic; text-align: center; padding: 1em;}
             background-color: #e5e5e5; 
             min-width: 700px; 
             max-width: 1024px; 
-            box-shadow: 5px 5px 5px #fca311}
+            box-shadow: 5px 5px 5px #fca311;
+            overflow: hidden;}
 h3 {color: #fca311;}
+h5 {    text-align: center;
+        color: #fca311;}
 main{       
             padding-right: 2em; 
             padding-left: 2em; 
@@ -34,20 +40,24 @@ nav a:hover {color: #d49100; }
 header, main, footer {display: block;}
 #mobile { display: none; }
 #desktop { display: inline; }
-#case1  {   float: left;
-            width: 200px;
+.divcase1  {   float: left;
+            width: 31%;
             padding: 1px;
-            background-color: #FFFFFF;
+            
+            margin-left: 1em;
             }
-#case2  {   float: left;
-            width: 200px;
+.divcase2  {   float: left;
+            width: 31%;
             padding: 1px;
-            background-color: #FFFFFF;
+            margin-left: 1em;
+            margin-right: 1em;
+            
            }
-#case3  {   float: left;
-            width: 200px;
+.divcase3  {   float: right;
+            width: 31%;
             padding: 1px;
-            background-color: #FFFFFF;
+            
+            margin-right: 1em;
             }
 
 @media only screen and (max-width: 1024px) {    body {  margin: 0; 
@@ -70,9 +80,9 @@ header, main, footer {display: block;}
                                                         margin-left: 0;
                                                         font-size: 90%;}
                                                 footer {margin: 0;}
-                                                #case1 {margin: 0;}
-                                                #case2 {margin: 0;}
-                                                #case3 {margin: 0;}
+                                                .divcase1 {margin: 0;}
+                                                .divcase2 {margin: 0;}
+                                                .divcase3 {margin: 0;}
                                                 
                                             }
 @media only all and (max-width: 768px)     {    h1 {    height: 100%;
@@ -94,9 +104,9 @@ header, main, footer {display: block;}
                                                             padding-left: 0.4em;}
                                                 
                                                 footer {padding: 0;}
-                                                #case1 {margin: 0;}
-                                                #case2 {margin: 0;}
-                                                #case3 {margin: 0;}
+                                                .divcase1 {margin: 0;}
+                                                .divcase2 {margin: 0;}
+                                                .divcase3 {margin: 0;}
                                                 #mobile { display: inline; }
                                                 #desktop { display: none; }
                                                 }
